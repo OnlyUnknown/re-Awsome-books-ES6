@@ -7,8 +7,6 @@ const dateElement = document.querySelector('.Date');
 const date = DateTime.now();
 dateElement.textContent = date.toLocaleString(DateTime.DATETIME_MED);
 
-
-
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
 
 document.querySelector('.Contact').addEventListener('click', contact);
